@@ -12,7 +12,7 @@ public class student_main {
 //        s1.setStudentData(101, "Ullas",'A');
 //        s1.printStudentData();
         //3) using constructors
-        student stu=new student(234, "Kevin", 'A');
+        student stu = new student(234, "Kevin", 'A');
         stu.printStudentData();
 
     }

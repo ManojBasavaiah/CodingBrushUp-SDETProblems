@@ -2,7 +2,7 @@ package Strings;
 
 import java.util.HashMap;
 
-public class StringCompress {
+public class StringCompress { // here
 
     public static void main(String[] args){
 

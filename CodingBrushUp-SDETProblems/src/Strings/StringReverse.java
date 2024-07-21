@@ -20,6 +20,7 @@ public class StringReverse {
         System.out.print(rev);
 */
         //Using stringBuffer
+        //StringBuffer is a class in java that is used to manipulate strings.
         StringBuffer sb=new StringBuffer(s);
         StringBuffer reversed=sb.reverse();
         String rev1=reversed.toString();

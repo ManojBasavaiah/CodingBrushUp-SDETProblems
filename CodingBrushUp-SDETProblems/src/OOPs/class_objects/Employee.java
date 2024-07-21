@@ -6,13 +6,14 @@ public class Employee {
     String name;
     String job;
     int salary;
+
     //methods
-    void display()/*void is return type and display is user defined method*/{
+    void display()/*void is return type and display is user defined method*/ {
         System.out.println(id);
         System.out.println(name);
         System.out.println(job);
         System.out.println(salary);
-        System.out.println(id+" "+name);
+        System.out.println(id + " " + name);
     }
 
     /*public static void main(String[] args) {

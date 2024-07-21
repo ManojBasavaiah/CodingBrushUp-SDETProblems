@@ -7,8 +7,8 @@ public class CountOccurenceOfWordInString {
 
     public static void main(String[] args){
 
-        String s="Java-Program-Java-Program-Selenium";
-        String[] eachWord=s.split("-");
+        String s="Java Program Java Program Selenium. For test- it is best best jgyf,";
+        String[] eachWord=s.split("\\W+");
 
         HashMap<String,Integer> countOccurence=new HashMap<>();
 

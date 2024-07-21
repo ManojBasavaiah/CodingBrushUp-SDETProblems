@@ -25,9 +25,7 @@ public class DuplicateCharacterInAString {
         for (Map.Entry<Character, Integer> entry : occurence.entrySet()) {
 
             if (entry.getValue() > 1) {
-                System.out.println(entry.getKey()
-                        + " : "
-                        );
+                System.out.println(entry.getKey() + " : " + entry.getValue());
             }
 
         }

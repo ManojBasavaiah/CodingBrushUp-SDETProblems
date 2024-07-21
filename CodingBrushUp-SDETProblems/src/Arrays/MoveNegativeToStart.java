@@ -24,6 +24,11 @@ public class MoveNegativeToStart {
                 counter++;
             }
         }
+        for (int i:tempArr)
+        {
+            System.out.print(i+" ");
+        }
+        System.out.println();
 
         System.out.print(Arrays.toString(tempArr));
     }

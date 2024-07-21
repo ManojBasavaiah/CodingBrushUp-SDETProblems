@@ -4,7 +4,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+//  Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 public class TwoSumProblem {
+
     public static int[] twoSumBruteForce(int [] nums,int target) {
 
         for (int i = 0; i < nums.length; i++) {
