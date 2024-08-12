@@ -22,10 +22,12 @@ public class Overridding {
 
         Bank b = new Bank();
         ICICI i = new ICICI();
+        Bank sb =new SBI();
         SBI s = new SBI();
         System.out.println(b.roi());
         System.out.println(i.roi());
         System.out.println(s.roi());
+        System.out.println(sb.roi());
 
     }
 }
