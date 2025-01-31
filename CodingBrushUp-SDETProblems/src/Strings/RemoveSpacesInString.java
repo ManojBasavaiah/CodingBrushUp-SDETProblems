@@ -8,5 +8,6 @@ public class RemoveSpacesInString {
         String s1 =s.replaceAll(" ","");
         System.out.println(s1);
 
+
     }
 }

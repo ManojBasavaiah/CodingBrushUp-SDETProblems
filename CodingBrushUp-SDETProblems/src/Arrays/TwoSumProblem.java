@@ -26,14 +26,16 @@ public class TwoSumProblem {
 
         for(int i=0;i<nums.length;i++){
             twoSumMap.put(nums[i],i);
-            System.out.println("Two sum Map is "+twoSumMap);
-        }
+
+        }System.out.println("Two sum Map is "+twoSumMap);
         for(int i=0;i<nums.length;i++){
 
             int numtoFind=target-nums[i];
 
             if(twoSumMap.containsKey(numtoFind)&&twoSumMap.get(numtoFind)!=i){
-                return new int[] {i,twoSumMap.get(numtoFind)};
+                return new int[] {
+                        i,twoSumMap.get(numtoFind)
+                };
             }
         }
         throw new IllegalArgumentException("Pair not found");

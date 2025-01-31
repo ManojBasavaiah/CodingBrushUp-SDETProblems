@@ -8,7 +8,6 @@ import java.util.List;
 public class MaxAndMinInArray {
 
     public static void main(String[] args){
-
         List<Integer> al= Arrays.asList(1,2,3,4,5,6,7,8,9);
 
         int max=al.stream().max(Comparator.comparing(Integer::valueOf)).get();

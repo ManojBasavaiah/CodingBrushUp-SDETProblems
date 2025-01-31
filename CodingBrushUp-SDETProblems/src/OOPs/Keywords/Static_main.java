@@ -8,5 +8,6 @@ public class Static_main {
         sd.m();
         sd.m2();
         System.out.println(sd.b);
-    }
+
+         }
 }

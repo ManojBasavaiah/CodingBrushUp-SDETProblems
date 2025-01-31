@@ -1,13 +1,15 @@
 package OOPs.Encapsulation;
 
 public class Account {
-    //Encapsulation - data hiding
+    //Encapsulation --> data hiding
+    // access modifiers --> public, private, protected
     private int accNo;
     private String name;
     private double amount;
-// below methods are getters and setters for accNo, name, amount variables
+    // below methods are getters and setters for accNo, name, amount variables
     // deserialization and serialization in java - converting java object into byte stream and vice versa
     //below is deserialization
+
     public int getAccNo() {
         return accNo;
     }

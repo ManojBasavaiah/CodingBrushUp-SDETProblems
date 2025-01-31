@@ -2,6 +2,7 @@ package Strings;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class RemoveDuplicateWordsFromSentence
 {
@@ -24,13 +25,10 @@ public class RemoveDuplicateWordsFromSentence
                 map.put(s, counter);
             }
         }
-
+        Set<Map.Entry<String, Integer>> set = map.entrySet(); // <Map.Entry>
         for(Map.Entry<String,Integer> entryMap: map.entrySet())
         {
-            if(entryMap.getValue()==1)
-            {
                 System.out.print(entryMap.getKey()+" ");
-            }
         }
         /*map.entrySet().stream()
                 .filter(entryMap -> entryMap.getValue() == 1)

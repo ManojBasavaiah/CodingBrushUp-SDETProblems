@@ -1,50 +1,49 @@
 package Numbers;
 
 public class PrimeOrNot {
+    public static void main(String[] args) {
+        PrimeOrNot primeOrNot = new PrimeOrNot();
+        //primeOrNot.primeuptoGivenValue();
+        primeOrNot.findPrimeorNot();
+    }
 
 
+    public void primeuptoGivenValue() {
 
-    public void primeuptoGivenValue(){
+        int n = 5;
+        for (int i = 2; i <= n; i++) {
 
-        int n=5;
-        for(int i=2;i<=n;i++){
+            boolean isPrime = true;
 
-            boolean isPrime=true;
-
-            for(int j=2;j<i;j++){
-                if(i%j==0){
-                    isPrime=false;
+            for (int j = 2; j < i; j++) {
+                if (i % j == 0) {
+                    isPrime = false;
                     break;
                 }
             }
-            if(isPrime){
+            if (isPrime) {
                 System.out.println(i);
             }
         }
     }
 
-    public void findPrimeorNot(){
-        int num=7;
-        int count=0;
-        if(num>1){
-            for (int i=1;i<=num;i++){
-                if(num%i==0)
+    public void findPrimeorNot() {
+        int num = 7;
+        int count = 0;
+        if (num > 1) {
+            for (int i = 1; i <= num; i++) {
+                if (num % i == 0)
                     count++;
 
             }
-            if(count==2){
+            if (count >= 2) {
                 System.out.println("Prime number");
-            }
-            else{
+            } else {
                 System.out.println("not a prime");
             }
         }
 
     }
 
-    public static void main(String[] args){
-        PrimeOrNot primeOrNot=new PrimeOrNot();
-        primeOrNot.primeuptoGivenValue();
-        //primeOrNot.findPrimeorNot();
-    }
+
 }

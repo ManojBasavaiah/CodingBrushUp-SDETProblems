@@ -3,7 +3,8 @@ package Strings;
 import java.util.Arrays;
 
 public class Anagram {
-//    Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+//    Anagram is a word or phrase formed by rearranging the
+//    letters of a different word or phrase, typically using all the original letters exactly once.
 // example: listen and silent
     public static void main(String[] args) {
         Anagram anagram = new Anagram();

@@ -1,5 +1,7 @@
 package Strings;
 
+
+
 public class StringSplitOperation {
 
     public static void main(String[] args){
@@ -13,7 +15,12 @@ public class StringSplitOperation {
 
         // passwordArray2[0]
 
-        String password = passwordArray[1].split("'")[0];
+        String password = passwordArray[1].split("-")[0];
+        for(Object pass:passwordArray){
+            System.out.println(pass);
+        }
+        System.out.println(password);
+
 
 
 

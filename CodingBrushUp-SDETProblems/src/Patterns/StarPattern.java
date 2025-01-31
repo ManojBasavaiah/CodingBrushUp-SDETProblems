@@ -7,8 +7,8 @@ public class StarPattern {
      StarPattern starPattern=new StarPattern();
 //     starPattern.starPattern();
 //     starPattern.invertedStarPattern();
-//     starPattern.diamond();
-         starPattern.charac();
+    starPattern.diamond();
+         //starPattern.charac();
 
      }
 

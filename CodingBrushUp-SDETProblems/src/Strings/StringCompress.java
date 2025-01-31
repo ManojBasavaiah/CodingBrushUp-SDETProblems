@@ -23,7 +23,7 @@ public class StringCompress { // here
             }
         }
         for(Character key:map.keySet()){
-            System.out.print(key+""+map.get(key));
+            System.out.print(key+" "+map.get(key)+"\n");
         }
     }
 }

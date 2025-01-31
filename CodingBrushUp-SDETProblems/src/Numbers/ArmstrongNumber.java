@@ -3,8 +3,9 @@ package Numbers;
 import java.util.Scanner;
 
 public class ArmstrongNumber {
-//Armstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits
-// 153 = 1*1*1 + 5*5*5 + 3*3*3
+/*Armstrong number is a number that is equal to the sum of its
+ own digits each raised to the power of the number of digits
+153 = 1*1*1 + 5*5*5 + 3*3*3*/
     public static void main(String [] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number: ");

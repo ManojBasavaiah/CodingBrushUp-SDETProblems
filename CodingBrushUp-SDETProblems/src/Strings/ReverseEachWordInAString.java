@@ -12,9 +12,15 @@ public class ReverseEachWordInAString {
         StringBuffer s1=new StringBuffer(word);
         System.out.println(s1.reverse().reverse().toString());
 
+//        for (String s:splitted){
+//            String reversed="";
+//            StringBuffer sb =  new StringBuffer(s);
+//            reversed=reversed+sb.reverse().toString();
+//            actualReversedString=actualReversedString+reversed+" ";
+//        }
         for (String s:splitted){
             String reversed="";
-            for(int i=s.length()-1;i>=0;i--){
+            for (int i=s.length()-1;i>=0;i--){
                 reversed=reversed+s.charAt(i);
             }
             actualReversedString=actualReversedString+reversed+" ";

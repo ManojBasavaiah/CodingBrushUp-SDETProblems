@@ -9,8 +9,9 @@ public class StringReverse {
         String s=sc.next();
 
         //String s="selenium";
-     String s1= s.substring(0,1).toUpperCase()+" "+s.substring(0);
+     String s1= s.substring(0,4).toUpperCase()+" "+s.substring(0);
        System.out.println(s1);
+
         String rev="";
 
         //Using standard method
