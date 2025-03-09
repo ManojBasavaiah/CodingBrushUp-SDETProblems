@@ -11,7 +11,7 @@ public class longestsubstringwithnonrepeatingchars {
         String longestsubstring = "";
         HashSet<Character> set = new HashSet<>();
         // find longest substring without repeating characters
-        for (int end = 0; end < str.length(); end++) {
+        for (int end = 0; end < n; end++) {
             char currentchar = str.charAt(end);
             while (set.contains(currentchar)) {
                 set.remove(str.charAt(start));

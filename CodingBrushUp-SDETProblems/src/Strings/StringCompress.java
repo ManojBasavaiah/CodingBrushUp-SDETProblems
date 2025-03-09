@@ -13,9 +13,7 @@ public class StringCompress { // here
         for(int i=0;i<value.length();i++){
             char ch=value.charAt(i);
             if(map.containsKey(ch)){
-                int count=map.get(ch);
-                count++;
-                map.replace(ch,count);
+                map.put(ch, map.get(ch)+1);
             }
             else
             {

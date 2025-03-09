@@ -6,13 +6,12 @@ public class reverse_without_changingSpace {
         char[] arr = input.toCharArray();
         int left = 0, right = arr.length - 1;
         while (left < right) {
-            if (arr[left] == ' ') {
+
+            if (!Character.isAlphabetic(arr[left])) {
                 left++;
-                continue;
             }
-            if (arr[right] == ' ') {
+            if (!Character.isAlphabetic(arr[right])) {
                 right--;
-                continue;
             }
             char temp = arr[left];
             arr[left] = arr[right];

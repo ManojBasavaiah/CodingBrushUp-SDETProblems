@@ -8,8 +8,8 @@ public class SortArrayInAscendingAndDescendingOrder {
          int temp=0;
          int size=arr.length;
 
-         for(int i=0;i<arr.length;i++){
-             for(int j=i+1;j<arr.length;j++){
+         for(int i=0;i<size;i++){
+             for(int j=i+1;j<size;j++){
                 //if told to sort in descending order then change the greater symbol to arr[j]
                  if (arr[i]>arr[j])  {
                      temp=arr[i];

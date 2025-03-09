@@ -10,7 +10,6 @@ public class DuplicateCharacterInAString {
         String actualWord = "Dhayanidhi";
         String actualword=actualWord.toLowerCase();
         char[] eachChar=actualword.toCharArray();
-
         HashMap<Character,Integer> occurence=new HashMap<>();
 
         for(char singleletter:eachChar){
