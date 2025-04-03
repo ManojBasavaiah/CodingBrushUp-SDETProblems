@@ -2,7 +2,7 @@ package Strings;
 
 import java.util.Arrays;
 
-public class ReverseEachWordInAString {
+public class  ReverseEachWordInAString {
 
     public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class ReverseEachWordInAString {
         String[] splitted=word.split("\\s");
         String actualReversedString="";
         StringBuffer s1=new StringBuffer(word);
-        System.out.println(s1.reverse().reverse().toString());
+        System.out.println(s1.reverse().toString());
 
 //        for (String s:splitted){
 //            String reversed="";
